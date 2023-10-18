@@ -65,7 +65,6 @@ h2 {
     background-image: url(/images/moraine2.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
     width: 50%;
     height: 40em;
     background-position: center;
@@ -75,7 +74,6 @@ h2 {
     background-image: url(/images/moraine3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
     width: 50%;
     height: 40em;
     background-position: center;
