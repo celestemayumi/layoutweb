@@ -7,17 +7,14 @@ body {
     font-size: 62.5%;
 }
 
-/*Header*/
 
-
-.header {
+header {
     background-image: url(https://jardenephotography.com/wp-content/uploads/2020/07/Three_Lakes_Tour_2020_07_11_0053-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40em;
     background-position: center;
 }
 
@@ -31,9 +28,11 @@ header p{
     border: 7px solid rgb(255, 255, 255);
     box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.6);
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
-}
+} 
 
 /*Caixas de texto*/
+
+
 
 h2 {
     font-family: 'Gabarito', sans-serif;
@@ -44,10 +43,10 @@ h2 {
     justify-content: space-evenly;
 }
 .box1, .box2{
-    width: 100%;
     font-size: 1.5em;
     background-color: rgb(199, 218, 219);
     padding: 4em;
+    width: fit-content;
 }
 
 .box1 p, .box2 p{
@@ -59,7 +58,10 @@ h2 {
     background-color: rgb(151, 188, 188);
 }
 
+
 /*Caixas de imagem*/
+
+
 
 .box-images {
     display: flex;
@@ -74,6 +76,14 @@ h2 {
     background-position: center;
 }
 
+.box3 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin: 1em;
+}
+
 .box4 {
     background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/515000/515893-moraine-lake.jpg);
     background-repeat: no-repeat;
@@ -81,4 +91,60 @@ h2 {
     width: 100%;
     height: 40em;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 button {
+    width: 5em;
+    height: 2em;
+    margin: 2em;
+    background: none;
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.box4 button:hover{
+    border: 3px solid rgb(120, 227, 246);
+    color: rgb(120, 227, 246);
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.box4  p{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 6px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+} 
+
+
+/*Ajustando responsividade*/
+
+@media (max-width: 680px) {
+    .box-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-images {
+        display: flex;
+        flex-direction: column;
+    }
+    header p{
+        margin: 1em;
+        font-size: 3.5em;
+        border: 5px solid rgb(255, 255, 255);
+    }
 }
