@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/*Header*/
+
+.header {
+    background-image: url(images/moraine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40em;
+    background-position: center;
+}
+
+
+header p{
+    font-family: 'Gabarito', sans-serif;
+    display: flex;
+    font-size: 5em;
+    padding: 2.2em 1em 1em 1em;
+    color: rgb(255, 255, 255);
+    border: 7px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+/*Caixas de texto*/
+
+h2 {
+    font-family: 'Gabarito', sans-serif;
+}
+
+.box-text {
+    display: flex;
+    justify-content: space-around;
+}
+.box1, .box2{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    text-align:justify;
+    padding: 5em;
+    font-size: 1.5em;
+    background-color: rgb(199, 218, 219);
+}
+
+.box2 {
+    background-color: rgb(151, 188, 188);
+}
+
+/*Caixas de imagem*/
+
+.box-images {
+    display: flex;
+}
+
+.box3 {
+    background-image: url(/images/moraine2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 50%;
+    height: 40em;
+    background-position: center;
+}
+
+.box4 {
+    background-image: url(/images/moraine3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 50%;
+    height: 40em;
+    background-position: center;
+}
