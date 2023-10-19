@@ -33,7 +33,12 @@ header p{
 
 /*Caixas de texto*/
 
-
+h1 {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 4.5em;
+    margin: 0;
+    color: rgb(0, 101, 119);
+}
 
 h2 {
     font-family: 'Gabarito', sans-serif;
